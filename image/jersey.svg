@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="480" viewBox="0 0 600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ігрова футболка Kindiyka City</title>
+  <desc id="desc">Темно-синя кіберспортивна футболка з блакитними панелями та написом Kindiyka City.</desc>
+  <defs>
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17364f"/>
+      <stop offset=".45" stop-color="#071827"/>
+      <stop offset="1" stop-color="#0f2940"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#49dbff"/>
+      <stop offset=".55" stop-color="#0989ec"/>
+      <stop offset="1" stop-color="#1754bb"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#5eaac8" stop-opacity=".05"/>
+      <stop offset=".5" stop-color="#b1eeff" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#5eaac8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#020a14" flood-opacity=".5"/>
+    </filter>
+    <clipPath id="body">
+      <path d="M234 66 190 78 115 125 84 220 161 249 184 192 175 421Q300 439 425 421L416 192 439 249 516 220 485 125 410 78 366 66Q350 106 300 110 250 106 234 66Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="300" cy="442" rx="153" ry="12" fill="#020a14" opacity=".22"/>
+  <g filter="url(#shadow)">
+    <path d="M234 66 190 78 115 125 84 220 161 249 184 192 175 421Q300 439 425 421L416 192 439 249 516 220 485 125 410 78 366 66Q350 106 300 110 250 106 234 66Z" fill="url(#fabric)" stroke="#214359" stroke-width="2"/>
+    <g clip-path="url(#body)">
+      <path d="M183 81 222 72 211 105 142 152 110 231 77 219 110 122ZM417 81 378 72 389 105 458 152 490 231 523 219 490 122Z" fill="url(#blue)"/>
+      <path d="m169 95 36-9-7 11-70 48-30 78M431 95l-36-9 7 11 70 48 30 78" fill="none" stroke="#8de7ff" stroke-width="2" opacity=".65"/>
+      <path d="M94 205 166 232 159 254 83 224ZM506 205 434 232 441 254 517 224Z" fill="url(#blue)"/>
+      <path d="m186 190 21 64-10 117 28 63M414 190l-21 64 10 117-28 63" fill="none" stroke="#148fd4" stroke-width="3"/>
+      <path d="m208 265 15 38-12 69 18 51M392 265l-15 38 12 69-18 51" fill="none" stroke="#66dfff" stroke-width="1" opacity=".28"/>
+      <path d="M180 392 249 351V305H270V270H292V241H311V291H333V322H356V368L420 402" fill="none" stroke="#179ad0" stroke-width="2" opacity=".22"/>
+      <path d="M183 409 261 361V314H280V283H302V327H325V342H344V378L417 416" fill="none" stroke="#179ad0" stroke-width="2" opacity=".17"/>
+      <path d="M198 83Q229 124 234 212L249 421H355L370 178Q381 116 403 79Z" fill="url(#shine)"/>
+      <path d="M177 414Q300 432 423 414" fill="none" stroke="#1a4965" stroke-width="2"/>
+    </g>
+    <path d="M234 66Q246 92 300 99 354 92 366 66L354 64Q343 80 300 87 257 80 246 64Z" fill="#030c17" stroke="#256485" stroke-width="2"/>
+    <path d="M237 68Q250 98 300 110 350 98 363 68" fill="none" stroke="url(#blue)" stroke-width="8"/>
+    <path d="M300 110v13" stroke="#b5efff" stroke-width="2"/>
+    <g fill="none" stroke="#3dc4f6" stroke-width="2">
+      <path d="m234 139 11 6v13l-11 6-11-6v-13Z"/>
+      <path d="m239 146-5-3-6 4v7l6 4 5-3"/>
+    </g>
+    <text x="252" y="155" fill="#bce9f5" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="2">CITY ESPORTS</text>
+    <path d="m351 135 17 9v19l-17 10-17-10v-19Z" fill="#061321" stroke="#2ba9de" stroke-width="2"/>
+    <text x="351" y="159" fill="#effaff" font-family="Arial,sans-serif" font-size="14" font-weight="900" text-anchor="middle">KC</text>
+    <path d="M222 227v-20h18v-18h20v-17h18v37h13v-46h17v67h16v-43h18v32h18v8h19" fill="none" stroke="#33b8ee" stroke-width="3" stroke-linejoin="round"/>
+    <text x="300" y="271" fill="#f0f9fc" font-family="Arial,sans-serif" font-size="42" font-weight="900" text-anchor="middle" letter-spacing="1">KINDIYKA</text>
+    <text x="300" y="312" fill="#f0f9fc" font-family="Arial,sans-serif" font-size="47" font-weight="900" text-anchor="middle" letter-spacing="7">CITY</text>
+    <path d="M225 324h150" stroke="#218fc4" stroke-width="2"/>
+    <text x="300" y="345" fill="#36b9ef" font-family="Arial,sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="4">ESPORTS CLUB</text>
+  </g>
+</svg>

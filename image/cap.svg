@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="480" viewBox="0 0 600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Кепка Kindiyka City</title>
+  <desc id="desc">Темно-синя кепка з вигнутим блакитним козирком та вишитою емблемою KC.</desc>
+  <defs>
+    <linearGradient id="crown" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2a4960"/>
+      <stop offset=".4" stop-color="#122b41"/>
+      <stop offset="1" stop-color="#061523"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1d3c52"/>
+      <stop offset="1" stop-color="#0a1a2d"/>
+    </linearGradient>
+    <linearGradient id="brim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#39c9f8"/>
+      <stop offset=".55" stop-color="#137fcc"/>
+      <stop offset="1" stop-color="#10345f"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#99e9ff"/>
+      <stop offset="1" stop-color="#1e78c2"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="15" flood-color="#020a14" flood-opacity=".5"/>
+    </filter>
+  </defs>
+  <ellipse cx="299" cy="402" rx="178" ry="15" fill="#020a14" opacity=".22"/>
+  <g filter="url(#shadow)">
+    <path d="M146 289Q135 196 178 142 221 91 298 92 373 93 419 147 455 190 464 274L414 309 258 327Z" fill="url(#crown)" stroke="#28455d" stroke-width="2"/>
+    <path d="M272 97Q310 96 346 115 382 147 396 217L401 294 253 316 162 285Q164 214 193 163 226 116 272 97Z" fill="url(#front)"/>
+    <path d="M294 98Q258 148 260 226l3 86M296 99q62 42 80 122l9 77" fill="none" stroke="#427591" stroke-width="2" opacity=".65"/>
+    <path d="M298 100q95 9 127 100l20 80M296 101q-92 14-127 112" fill="none" stroke="#1a405d" stroke-width="2"/>
+    <path d="m263 312 120-13 74-26 4 12-74 28-125 13-114-31-1-12Z" fill="#071727" stroke="#226b92" stroke-width="2"/>
+    <path d="M156 282Q228 299 301 291L401 285Q455 302 506 345 526 363 501 376 444 403 359 391 249 377 128 328 98 316 112 300 127 289 156 282Z" fill="url(#brim)" stroke="#14385c" stroke-width="2"/>
+    <path d="M112 313Q241 369 360 383 448 397 507 367L501 379Q446 408 357 394 237 380 115 327 104 322 103 314Z" fill="#08253e"/>
+    <path d="M115 315Q243 372 359 386 446 400 508 370" fill="none" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M134 304Q256 357 365 371 437 384 484 364M158 297Q272 345 370 358 428 368 466 353M202 298Q298 334 375 345 420 352 450 343" fill="none" stroke="#95ddf9" stroke-width="1.5" opacity=".35"/>
+    <path d="M162 284Q271 315 403 286" fill="none" stroke="#09273f" stroke-width="4"/>
+    <ellipse cx="293" cy="96" rx="12" ry="6" fill="#103454" stroke="#4ab9e7" stroke-width="2"/>
+    <ellipse cx="213" cy="153" rx="4" ry="3" fill="#041323" stroke="#3b7191" stroke-width="1.5" transform="rotate(-20 213 153)"/>
+    <ellipse cx="400" cy="168" rx="4" ry="3" fill="#041323" stroke="#3b7191" stroke-width="1.5" transform="rotate(35 400 168)"/>
+    <g transform="rotate(-7 298 212)">
+      <path d="m298 151 43 23v48l-43 26-43-26v-48Z" fill="#0a2134" stroke="#42c3f1" stroke-width="3"/>
+      <path d="m298 158 36 20v39l-36 22-36-22v-39Z" fill="none" stroke="#236b92" stroke-width="1"/>
+      <text x="298" y="213" fill="#e4f6ff" font-family="Arial,sans-serif" font-size="39" font-weight="900" text-anchor="middle" letter-spacing="-2">KC</text>
+      <text x="298" y="266" fill="#9fdcf5" font-family="Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2.5">KINDIYKA CITY</text>
+    </g>
+    <path d="m426 237 24-8 3 18-24 9Z" fill="#0b2134" stroke="#2d769b" stroke-width="1"/>
+    <path d="m435 243 11-4" stroke="#47c9f4" stroke-width="2"/>
+  </g>
+</svg>

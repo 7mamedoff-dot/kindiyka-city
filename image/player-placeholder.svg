@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="600" viewBox="0 0 480 600" role="img" aria-labelledby="title desc">
+  <title id="title">Тимчасовий силует гравця</title>
+  <desc id="desc">Абстрактний силует без рис обличчя до додавання оригінальної фотографії.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10213b"/><stop offset="1" stop-color="#050d19"/></linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#234261"/><stop offset=".4" stop-color="#142b47"/><stop offset="1" stop-color="#08182c"/></linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#284b68"/><stop offset="1" stop-color="#142b43"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#1176ad" stop-opacity=".4"/><stop offset="1" stop-color="#1176ad" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#4bb5df" stroke-opacity=".06"/></pattern>
+  </defs>
+  <path fill="url(#background)" d="M0 0H480V600H0Z"/>
+  <path fill="url(#grid)" d="M0 0H480V600H0Z"/>
+  <ellipse cx="240" cy="260" rx="230" ry="280" fill="url(#halo)"/>
+  <path d="M26 62H98M26 62V134M454 62H382M454 62V134" fill="none" stroke="#3189b7" stroke-opacity=".4"/>
+  <path d="M63 600L78 403Q83 357 139 330L187 309V273H293V309L341 330Q397 357 402 403L417 600Z" fill="url(#shirt)"/>
+  <path d="M174 185Q170 119 240 115Q310 119 306 185L294 260Q282 295 240 307Q198 295 186 260Z" fill="url(#head)"/>
+  <path d="M185 309L240 355L294 309M143 330L186 384L96 421M337 330L294 384L384 421" fill="none" stroke="#3299ce" stroke-width="4"/>
+  <path d="M194 318L240 350L286 318" fill="none" stroke="#7bceeb" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M106 439L127 557M374 439L353 557M171 509H206V472H230V424H250V487H271V461H288V519H308" fill="none" stroke="#2585b9" stroke-width="2" opacity=".35"/>
+  <path d="M223 405L240 388L257 405L240 422Z" fill="none" stroke="#53b8e5" stroke-width="2"/>
+  <path d="M0 568H480V600H0Z" fill="#061222" opacity=".65"/>
+</svg>
